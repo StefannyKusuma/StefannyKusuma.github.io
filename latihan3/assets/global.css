@@ -1,0 +1,164 @@
+body {
+	width: 70%;
+	height: 650px;
+	margin-left: 390px;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+.all {
+	width: 70%;
+	height:650px;
+}
+
+
+.awal {
+	font-size :15pt;
+	background-color: black;
+	color: white;
+	margin-top: -20px;
+	margin-left: -15px;
+}
+
+
+.satu {
+	border:3px solid black;
+}
+
+.satu thead {
+	background-color: black;
+}
+
+.satu thead tr th {
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table.satu thead tr th:nth-child(1) {
+	width: 15%;
+}
+
+table.satu thead tr th:nth-child(2) {
+	width: 50%;
+}
+
+table.satu thead tr th:nth-child(3) {
+	width: 15%;
+}
+
+table.satu tbody tr td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+
+table.two {
+	line-height:10px;
+	font-size:11pt;
+	margin-top:-80px;
+	margin-right: 40px;
+	padding-right: 60px;
+}
+
+table.two thead tr th{
+		border-bottom: 3px solid #32CD32;
+		height: 80px;
+		font-size: 25pt;
+		color: #32CD32;
+		line-height:40px;
+		text-align: left;
+}
+
+table.two tbody tr td p:nth-child(-n+5){
+	color: #32CD32;
+	font-weight: bold;
+}
+
+table.two tbody tr td p:nth-child(7){
+	color: #32CD32;
+	font-weight: bold;
+}
+
+table.two tbody tr td p:nth-child(6){
+	line-height:13px;
+}
+
+table.dua thead tr th{
+	border-bottom: 3px solid blue;
+}
+
+table.dua thead tr th {
+	text-align: left;
+	font-size: 15pt;
+}
+
+table.dua tbody tr td:nth-child(1) {
+	width: 20%;
+	font-size: 35pt;
+}
+
+table.dua tbody tr td:nth-child(2) {
+	width: 30%;
+}
+
+table.dua tbody tr td:nth-child(3) {
+	width:20%;
+	position: relative;
+}
+
+
+.wheel {
+	width:30px;
+	height:30px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+
+}
+
+ul.a {
+  list-style-type: circle;
+  line-height:20px;
+}
+
+ul.a1 {
+  list-style-type: none;
+  line-height:20px;
+}
+
+ul.a1 li:nth-child(odd){
+	color:#32CD32;
+}
+
+.service{
+	width: 180px;
+	background-color: pink;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom : 15px;
+	padding-top:  15px;
+	border-radius: 20px;
+	position: relative;	
+	margin-left: 90px;
+}
+
+table.one tbody tr td p:nth-child(even){
+	font-weight: bold;
+	font-size:110pt;
+	margin-bottom: -20px;
+	margin-top: -25px;
+	margin-left: 150px;
+}
+table.one tbody tr td p:nth-child(1){
+	margin-left: 90px;
+	position:relative;
+	text-align: right;
+	margin-bottom: 5px;
+}
