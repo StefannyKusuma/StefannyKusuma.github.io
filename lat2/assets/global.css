@@ -1,0 +1,68 @@
+main {
+	margin-top:13px;
+	width: 1200px;
+	margin-left: 175px;
+	margin-right: 180px;
+}
+
+main section.half{
+	width: 49%;
+	height: 18vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	background-color: pink;
+}
+
+main section.seperempat {
+	width: 24%;
+	height: 18vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-color: brown;
+	float: left;
+}
+
+main section.full {
+	width: 99%;
+	height: 18vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-color: coral;
+}
+
+main section.tengahfull {
+	width: 32%;
+	height: 18vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-color: skyblue;
+	float: left;
+}
+
+main section.tengahhalf {
+	width: 16%;
+	height: 9vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-color: red;
+	float: left;
+}
+
+main section.akhirhalf {
+	width: 66%;
+	height: 9vh;
+	margin-top:9vh;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-color: silver;
+	float: left;
+}
+
+main section.akhirfull {
+	width: 32%;
+	height: 18vh;
+	margin-right: 1%;
+	background-color: orange;
+	float: left;
+}
