@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/alphakind');
+
+
+h1 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 6.762em;
+	padding-left: 1.645em;
+	color: #CBEAF1;
+
+}
+
+h2 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 2.082em;
+	padding-left: 5.343em;
+	color: #325655;
+}
+
+h3 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1.922em;
+	padding-left: 6.011em;
+	color: #325655;
+	padding-top: 6.011em;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.645em;
+	color: #FFFFFF;
+	padding-bottom: 0.641em;
+}
+
+
+h5 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 3.336em;
+	padding-left: 3.752em;
+	color: #1C4343;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.027em;
+	padding-left: 1.027em;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	padding-left: 8.558em;
+	color: white;
+	font-size: 1.3em;
+	line-height: 2.343em;
+}
+
+
+.tagline {
+  color: #FFFFFF;
+  padding-top: 2.082em;
+  padding-bottom: 2.082em;
+  font-size: 2.965em;
+}
+
+.content1 p {
+	color: black;
+	line-height: 1.463em;
+	width: 100%;
+	padding-left: 1.027em;
+}
+
+.content1 h6 {
+	color: black;
+}
+
+.content2 h6 {
+	color: black;
+}
+
+.content2 p {
+	color: black;
+	line-height: 1.463em;
+	width: 100%;
+	padding-left: 1.027em;
+}
+
+.column2 h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.156em;
+	color: white;
+	padding-left: 0;
+
+}
+
+.column2 h6{
+	font-size:0.913em;
+	padding-left: 0;
+}
+
+
+.title h3 {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 5em;
+	padding-top: 3em
+	font-size: 2em;
+	color: white;	
+	padding-bottom: 0.5em;
+}
+
+.titled h3 {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 6em;
+	padding-top: 3em
+	font-size: 2em;
+	color: white;	
+	padding-bottom: 0.5em;
+}
+
+.titled2 h3 {
+	display: none;
+}
+
+.titlep2 {
+		font-family: 'Open Sans', sans-serif;
+	padding-left: 6em;
+	padding-top: 3em
+	font-size: 2em;
+	color: white;	
+	padding-bottom: 0.5em;
+}
+
+.about p {
+ width: 60%;
+}
+
+.getinvolved1 p {
+ width: 60%;
+}
+
+.page2 p {
+	width: 60%;
+}
+
+.event p {
+	padding-left:0;
+		width: 20em;
+}
+
+
+
+@media screen and (max-width: 415px){
+	h1 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 4.11em;
+		padding-left: 0.302em;
+		width: 50px;
+
+}
+
+h2 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1.125em;
+	padding-left: 1.125em;
+	width:300px;
+
+}
+
+h3 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1.266em;
+	padding-left: 1.125em;
+		padding-top: 4.624em;
+}
+
+
+h5 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 2.566em;
+	padding-left: 0.555em;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.79em;
+	padding-left: 0.624em;
+	color: #FFFFFF;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 1em;
+	padding-left:1em;
+	padding-right: 1em;
+}
+
+.content1 p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.content2 p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.tagline{
+	font-size: 2.027em;
+}
+
+.smallabout h6 {
+	font-size: 1.266em;
+}
+
+.getinvolved1 p {
+ width: 100%;
+}
+
+.column2 h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.79em;
+	color: white;
+	padding-left: 0;
+		padding-top: 0.555em;
+
+}
+
+.column2 h6{
+	font-size:0.624em;
+	padding-left: 0;
+	padding-top: 0.493em;
+}
+
+
+.title h3 {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 1.2em;
+	font-size: 1.6em;
+	color: white;	
+	padding-bottom: 0.5em;
+}
+
+.smallabout h6{
+	font-size: 1.1em;
+	padding-bottom: 1em;
+}
+
+.tombol {
+	color: black;
+}
+
+
+
+.isievent h4 {
+	font-size: 1.125em;
+
+}
+
+.titled2 h3 {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 1.3em;
+	padding-top: 2em;
+	font-size: 1.3em;
+	color: white;	
+	padding-bottom: 0.5em;
+}

@@ -1,0 +1,210 @@
+
+@media screen and (max-width: 415px){
+
+body {
+    overflow-x: hidden;
+    background-image: url('small.jpg');
+  }
+
+  .logo {
+  width:9em
+}
+
+.iconatas {
+  display: flex;
+  padding-left: 1em;
+  padding-top: 2em;
+}
+
+.iconatas img {
+  width: 4em;
+}
+
+.partners {
+  width: 30px;
+  padding-left: 0;
+}
+
+.partners img {
+  width: 8em;
+  padding-left: 1.5em;
+}
+
+.popup1 {
+  display: none;
+}
+
+.popup2 {
+  display: none;
+}
+
+.readmore1 {
+  display: block;
+}
+
+.readmore2 {
+  display: block;
+}
+
+.largei {
+  display: none;
+}
+
+.smalli {
+  display: block;
+}
+
+.about {
+  display: none;
+}
+
+#nav-links {
+    position: fixed;
+    height: 80vh;
+    top: 10vh;
+    background-color: #1C4343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%
+    justify-content: center;
+    transform:scale(0);
+    transition:0.7s;
+  }
+
+#nav-links.active {
+  transform:scale(1);
+}
+
+
+#nav-links a:hover{
+    background-color: white;
+  color: #1C4343;
+  }
+
+.space {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  min-height: 25vh;
+  background-color: #535967;
+  width: 100%;
+}
+
+.footer img {
+  width:50px;
+}
+
+#burger {
+    display: block;
+  }
+
+  .page2 {
+    display :none;
+  }
+
+.event {
+  padding-left: 2em;
+}
+
+.ftabt img {
+  padding-top: 4.5em;
+  width:414px;
+}
+
+.smallabout {
+  display: block;
+  padding-left: 1em;
+}
+
+.btn {
+  padding-left: 2em;
+}
+
+
+
+.imginvolved {
+  padding-top: 4.5em;
+  padding-left: 1em;
+}
+
+.imginvolved2 {
+  padding-top: 4.5em;
+  padding-left: 0.5em;
+}
+
+.ftorg1 {
+  padding-top: 4em;
+text-align: center;
+}
+
+.ftorg2 {
+  padding-top: 4em;
+text-align: center;
+}
+
+.tombol {
+  display: block;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  padding-left: 1em;
+}
+
+.footer h6{
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  padding-top: 0.5em
+}
+
+.up {
+  display: none;
+}
+
+.column2 {
+  float: left;
+  width: 200px;
+  height: 300px; 
+  padding-left: 0.5em;
+  text-align: center;
+  padding-top: 10em;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tagline h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.tombol {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FFFFFF;
+  background: #9EE9BC;
+  border-radius: 8px;
+  text-decoration: none;
+  vertical-align: top;
+  cursor: pointer;
+  margin-bottom: 5em;
+  margin-top: 1.5em;
+  color: black;
+}
+
+a.tombol:hover {
+  background: black;
+}
+
+a.tombol .iconify {
+  position: relative;
+  top: 3px;
+}
